@@ -22,6 +22,18 @@ name = mblib-config
 	size = 1188
 end
 
+name = mblib-log
+	type = github
+		author = cc-mb
+		repository = mblib-log
+		branch = master
+	category = base api log
+	dependencies = none
+	target = /usr/lib
+	version = 0.1.0
+	size = 4557
+end
+
 name = mblib-peripherals
 	type = github
 		author = cc-mb
@@ -37,7 +49,7 @@ end
 name = mblib
 	type = meta
 	category = group
-	dependencies = mb/mblib-algorithm mb/mblib-config mb/mblib-peripherals
-	version = 0.1.0
+	dependencies = mb/mblib-algorithm mb/mblib-config mb/mblib-log mb/mblib-peripherals
+	version = 0.1.1
 	size = 0
 end
