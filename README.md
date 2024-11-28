@@ -1,2 +1,0 @@
-# packlist
-packman repolist
