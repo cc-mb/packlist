@@ -1,8 +1,20 @@
+name = airlock
+	type = github
+		author = cc-mb
+		repository = airlock
+		branch = master
+	category = app npp
+	dependencies = mb/mblib-algorithm mb/mblib-log mb/mblib-peripherals
+	target = /
+	version = 0.0.1
+	size = 28108
+end
+
 name = mblib-algorithm
 	type = github
 		author = cc-mb
 		repository = mblib-algorithm
-		branch = master
+		branch = 0.1.0
 	category = base api
 	dependencies = none
 	target = /usr/lib
@@ -10,46 +22,34 @@ name = mblib-algorithm
 	size = 909
 end
 
-name = mblib-config
-	type = github
-		author = cc-mb
-		repository = mblib-config
-		branch = master
-	category = base api
-	dependencies = none
-	target = /usr/lib
-	version = 0.1.0
-	size = 1188
-end
-
 name = mblib-log
 	type = github
 		author = cc-mb
 		repository = mblib-log
-		branch = master
+		branch = 0.1.0
 	category = base api log
 	dependencies = none
 	target = /usr/lib
 	version = 0.1.0
-	size = 4557
+	size = 4255
 end
 
 name = mblib-peripherals
 	type = github
 		author = cc-mb
 		repository = mblib-peripherals
-		branch = master
+		branch = 0.1.0
 	category = base api peripherals
 	dependencies = mb/mblib-algorithm
 	target = /usr/lib
 	version = 0.1.0
-	size = 5215
+	size = 5642
 end
 
 name = mblib
 	type = meta
 	category = group
-	dependencies = mb/mblib-algorithm mb/mblib-config mb/mblib-log mb/mblib-peripherals
-	version = 0.1.1
+	dependencies = mb/mblib-algorithm mb/mblib-log mb/mblib-peripherals
+	version = 0.1.2
 	size = 0
 end
