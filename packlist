@@ -30,8 +30,8 @@ name = mblib-log
 	category = base api log
 	dependencies = none
 	target = /usr/lib
-	version = 0.1.0-hotfix3
-	size = 4377
+	version = 0.1.0-hotfix4
+	size = 4395
 end
 
 name = mblib-peripherals
