@@ -3,7 +3,7 @@ name = airlock
 		author = cc-mb
 		repository = airlock
 		branch = master
-	category = app npp
+	category = app npp safety
 	dependencies = mb/mblib-algorithm mb/mblib-log mb/mblib-peripherals
 	target = /
 	version = 0.0.1
@@ -52,4 +52,16 @@ name = mblib
 	dependencies = mb/mblib-algorithm mb/mblib-log mb/mblib-peripherals
 	version = 0.1.2
 	size = 0
+end
+
+name = pns
+	type = github
+		author = cc-mb
+		repository = pns
+		branch = master
+	category = rednet peripherals
+	dependencies = mb/mblib-log
+	target = /usr
+	version = 0.0.1
+	size = 7489
 end
