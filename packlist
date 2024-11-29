@@ -26,11 +26,11 @@ name = mblib-log
 	type = github
 		author = cc-mb
 		repository = mblib-log
-		branch = 0.1.0
+		branch = master
 	category = base api log
 	dependencies = none
 	target = /usr/lib
-	version = 0.1.0
+	version = 0.1.0-hotfix1
 	size = 4255
 end
 
