@@ -58,11 +58,11 @@ name = pns-client
 	type = github
 		author = cc-mb
 		repository = pns-client
-		branch = master
+		branch = 0.1.0
 	category = rednet peripherals
 	dependencies = none
 	target = /usr
-	version = 0.0.1
+	version = 0.1.0
 	size = 1618
 end
 
@@ -70,12 +70,12 @@ name = pns-server
 	type = github
 		author = cc-mb
 		repository = pns-server
-		branch = master
+		branch = 0.1.0
 	category = rednet peripherals server
 	dependencies = mb/mblib-log
 	target = /usr
-	version = 0.0.1
-	size = 5567
+	version = 0.1.0
+	size = 5573
 end
 
 name = pns
