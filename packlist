@@ -70,11 +70,11 @@ name = pns-server
 	type = github
 		author = cc-mb
 		repository = pns-server
-		branch = 0.1.0
+		branch = master
 	category = rednet peripherals server
 	dependencies = mb/mblib-log
 	target = /usr
-	version = 0.1.0
+	version = 0.1.1
 	size = 5573
 end
 
