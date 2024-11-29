@@ -54,14 +54,34 @@ name = mblib
 	size = 0
 end
 
-name = pns
+name = pns-client
 	type = github
 		author = cc-mb
-		repository = pns
+		repository = pns-client
 		branch = master
 	category = rednet peripherals
+	dependencies = none
+	target = /usr
+	version = 0.0.1
+	size = 1618
+end
+
+name = pns-server
+	type = github
+		author = cc-mb
+		repository = pns-server
+		branch = master
+	category = rednet peripherals server
 	dependencies = mb/mblib-log
 	target = /usr
 	version = 0.0.1
-	size = 7489
+	size = 5567
+end
+
+name = pns
+	type = meta
+	category = group
+	dependencies = mb/pns-client mb/pns-server
+	version = 0.1.0
+	size = 0
 end
