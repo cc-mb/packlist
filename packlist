@@ -6,8 +6,8 @@ name = airlock
 	category = app npp safety
 	dependencies = mb/mblib-algorithm mb/mblib-log mb/mblib-peripherals
 	target = /
-	version = 0.0.7
-	size = 29646
+	version = 0.0.8
+	size = 29652
 end
 
 name = mblib-algorithm
