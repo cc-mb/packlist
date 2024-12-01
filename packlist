@@ -2,11 +2,11 @@ name = airlock
 	type = github
 		author = cc-mb
 		repository = airlock
-		branch = master
+		branch = 0.2.0
 	category = app npp safety
 	dependencies = mb/mblib-algorithm mb/mblib-log mb/mblib-peripherals mb/pns-client
 	target = /
-	version = 0.1.4
+	version = 0.2.0
 	size = 31339
 end
 
