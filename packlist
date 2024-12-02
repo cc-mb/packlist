@@ -18,8 +18,8 @@ name = lock
 	category = app npp safety
 	dependencies = mb/mblib-algorithm mb/mblib-log mb/mblib-peripherals mb/pns-client
 	target = /
-	version = 0.0.2
-	size = 18741
+	version = 0.0.3
+	size = 18673
 end
 
 name = mblib-algorithm
