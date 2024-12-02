@@ -10,6 +10,18 @@ name = airlock
 	size = 31339
 end
 
+name = lock
+	type = github
+		author = cc-mb
+		repository = lock
+		branch = master
+	category = app npp safety
+	dependencies = mb/mblib-algorithm mb/mblib-log mb/mblib-peripherals mb/pns-client
+	target = /
+	version = 0.0.1
+	size = 18746
+end
+
 name = mblib-algorithm
 	type = github
 		author = cc-mb
