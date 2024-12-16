@@ -58,11 +58,92 @@ name = mblib-peripherals
 	size = 5642
 end
 
+name = mblib-units-base
+	type = github
+		author = cc-mb
+		repository = mblib-units-base
+		branch = master
+	category = base api physics
+	dependencies = none
+	target = /usr/lib
+	version = 0.1.0
+	size = 9599
+end
+
+name = mblib-units-energy
+	type = github
+		author = cc-mb
+		repository = mblib-units-energy
+		branch = master
+	category = base api physics
+	dependencies = mb/mblib-units-base mb/mblib-units-time
+	target = /usr/lib
+	version = 0.1.0
+	size = 2038
+end
+
+name = mblib-units-ionizing
+	type = github
+		author = cc-mb
+		repository = mblib-units-ionizing
+		branch = master
+	category = base api physics
+	dependencies = mb/mblib-units-base mb/mblib-units-time
+	target = /usr/lib
+	version = 0.1.0
+	size = 1360
+end
+
+name = mblib-units-spatial
+	type = github
+		author = cc-mb
+		repository = mblib-units-spatial
+		branch = master
+	category = base api physics
+	dependencies = mb/mblib-units-base mb/mblib-units-time
+	target = /usr/lib
+	version = 0.1.0
+	size = 6256
+end
+
+name = mblib-units-temperature
+	type = github
+		author = cc-mb
+		repository = mblib-units-temperature
+		branch = master
+	category = base api physics
+	dependencies = mb/mblib-units-base mb/mblib-units-time
+	target = /usr/lib
+	version = 0.1.0
+	size = 1088
+end
+
+name = mblib-units-time
+	type = github
+		author = cc-mb
+		repository = mblib-units-time
+		branch = master
+	category = base api physics
+	dependencies = mb/mblib-units-base mb/mblib-units-time
+	target = /usr/lib
+	version = 0.1.0
+	size = 645
+end
+
+name = mblib-units
+	type = meta
+	category = group
+	dependencies = mb/mblib-units-base mb/mblib-units-energy mb/mblib-units-ionizing mb/mblib-units-spatial mb/mblib-units-temperature mb/mblib-units-time
+	target = /usr/lib
+	version = 0.1.0
+	size = 0
+end
+
 name = mblib
 	type = meta
 	category = group
-	dependencies = mb/mblib-algorithm mb/mblib-log mb/mblib-peripherals
-	version = 0.1.2
+	dependencies = mb/mblib-algorithm mb/mblib-log mb/mblib-peripherals mb/mblib-units
+	version = 0.1.3
 	size = 0
 end
 
